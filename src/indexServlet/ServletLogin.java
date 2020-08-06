@@ -24,6 +24,7 @@ public class ServletLogin extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         LoginModels models = null;
         String tableName = null;
+
         switch (Integer.parseInt(request.getParameter("statu")))
         {
             case 0:
